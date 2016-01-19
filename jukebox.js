@@ -45,14 +45,48 @@
  //        }
 
 
-//  function Jukebox(play, stop, songs, add_song) {
-// 	this.play = function play(){}
-// 	this.stop = function stop(){}
-// 	this.songs = [];
-// 	this.add_song = function(x){
-// 	this.songs.push(x);
-// 	}
-// }
+function Jukebox(songs) {
+
+ 	var x = document.getElementById("audiofile").value;
+	var audio = new Audio(x);
+	this.songs = [];	
+	document.getElementById("play").onclick = function play(){
+		console.log(audio);
+		audio.play();
+		console.log("test");
+	}
+
+	document.getElementById("stop").onclick= function stop(){
+
+
+		console.log(audio);
+		audio.pause();
+		audio.currentTime = 0;
+		console.log("test");
+	}
+
+	document.getElementById("pause").onclick= function pause(){
+
+
+		console.log(audio);
+		audio.pause();
+		console.log("test");
+	}
+
+
+	document.getElementById("add_song").onclick= function add_song(){
+
+ 	var x = document.getElementById("audiofile").value;
+	var audio = new Audio(x);
+	this.songs.push(songs);
+
+	}
+
+	
+	// this.add_song = function(x){
+	// this.songs.push(x);
+	// }
+}
 
 // function load(){
 	
@@ -66,30 +100,30 @@
 
 // $(".addsong_button").click(function Song(){
 
-function load(){
+// function load(){
 
-var x = document.getElementById("audiofile").value;
-var audio = new Audio(x);
-audio.play();
+// var x = document.getElementById("audiofile").value;
+// var audio = new Audio(x);
+// // audio.play();
 
-console.log("tester");
- // onclick pause do x
-document.getElementById("pause").onclick = function(){
+// console.log("tester");
+//  // onclick pause do x
+// document.getElementById("pause").onclick = function(){
 		
-		console.log(audio);
-		audio.pause();
-		console.log("test");
-	};
+// 		console.log(audio);
+// 		audio.pause();
+// 		console.log("test");
+// 	};
 
-document.getElementById("play").onclick = function(){
+// document.getElementById("play").onclick = function(){
 		
-		console.log(audio);
-		audio.play();
-		console.log("test");
-	};
+// 		console.log(audio);
+// 		audio.play();
+// 		console.log("test");
+// 	};
 	
 
-};
+// };
 
 
 

@@ -8,15 +8,27 @@
 </head>
 <body>
 	<div class="jukebox_div">
-	<audio class="jukebox">
+	<!-- <audio class="jukebox">
     	<source src="first_song.mp3" type="audio/mp3">
     	<source src="first_song.oog" type="audio/oog">
-	</audio>
+	</audio> -->
 	</div>
 	<button  id="play">Play</button>
-	<button  id="pause">Stop</button>
-	<button onclick = "load()" class="load_file">Load File</button>
-	<input  type="text" id="audiofile" size="80"/>
+	<button  id="stop">Stop</button>
+	<button  id="pause">Pause</button>
+	<button  id="add_song">Add Song</button>
+	<button  onclick = "Jukebox()" class="load">Run JukeBox</button>
+	<br><br>
+	<h4>Type your file, in the local directy</h4> <select id="audiofile"/>
+<option value=""></option>
+<option value="1.mp3">Chaiya Chaiya</option>
+<option value="2.mp3">Jabba Laugh</option>
 
+</select>
+	<!-- <br>
+	<input  type="text" id="audiofile2" size="80"/>
+	<br>
+	<input  type="text" id="audiofile3" size="80"/> -->
+	
 </body>
 </html>
