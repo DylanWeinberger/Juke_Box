@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JukeBox</title>
+	<script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src= "jukebox.js"></script>
+</head>
+<body>
+	<div class="jukebox_div">
+	<audio class="jukebox">
+    	<source src="first_song.mp3" type="audio/mp3">
+    	<source src="first_song.oog" type="audio/oog">
+	</audio>
+	</div>
+	<button  id="play">Play</button>
+	<button  id="pause">Stop</button>
+	<button onclick = "load()" class="load_file">Load File</button>
+	<input  type="text" id="audiofile" size="80"/>
+
+</body>
+</html>
