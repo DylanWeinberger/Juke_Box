@@ -1,4 +1,7 @@
-.album {
+// default and large screen
+
+@media all and (min-width: 700px) {
+    .album {
 
 	position: absolute;
 	top: 50%;
@@ -7,4 +10,15 @@
 		color: $bluepac;
 
 	}
+}
+}
+
+
+// Mobile site
+
+@media screen and (max-width: 700px) {
+    .album {
+display: none;
+	
+}
 }

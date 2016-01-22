@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>JukeBox</title>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.1.0/annyang.min.js"></script>
 	<!-- Voice recognition library above. -->
@@ -12,18 +13,18 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class= "container">
+	<div class="container">
 			<div class="headliner">
 				<h1>Bowie Box</h1>
 			</div>
-		<div class = "buttons_from_mars">
+		<div class="buttons_from_mars">
 			<button  id="play">Play</button>
 			<button  id="stop">Stop</button>
 			<button  id="pause">Pause</button>
-			<button  id="next_song">Next Song</button>
+			<button  id="next_song">Next</button>
 			<br><br>
 		</div>
-		<div class = "ziggy_select">
+		<div class="ziggy_select">
 			<select id="audiofile"/>
 				<option value=""></option>
 				<option value="0">Space Oddity</option>
@@ -35,7 +36,7 @@
 		</div>	
 		<div class="album">
 			<h1>Choose a song</h1>
-			<img class="thumbnail" src="css/images/album_holder.jpg" alt="">
+			
 		</div>
 		<p id= "name"></p>
 	</div>
