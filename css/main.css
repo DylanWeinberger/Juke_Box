@@ -20,4 +20,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
+#audiofile {
+  width: 200px;
+  font-size: 48px;
+  position: absolute; }
+
 /*# sourceMappingURL=main.css.map */
