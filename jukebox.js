@@ -68,4 +68,29 @@ $(document).ready(function(){
 	}
 }
 
+
+
+	function flash(mars){
+		$(mars).click(function(){
+			$(mars).fadeOut(7000, function(){
+				$(mars).fadeIn(1000, function(){
+					flash(mars);
+				});
+			});
+		});
+	};
+// 	function flash(mars){
+// 	$(mars).mouseover(function(){
+// 		$(mars).fadeOut(2000, function(){
+// 			$(this).fadeIn(500, function(){
+// 				flash(this);
+// 			});	
+// 		});
+// 	});
+// };
+	flash("#play");
+	flash("#stop");
+	flash("#pause");
+	flash("#next_song");
+
 });
