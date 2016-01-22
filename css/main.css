@@ -7,7 +7,7 @@
   width: 20%; }
   .buttons_from_mars button {
     font-size: 20px;
-    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-family: 'Permanent Marker', cursive;
     padding: 20px;
     margin-top: 50px;
     background-color: rgba(58, 75, 156, 0.6);
@@ -33,7 +33,7 @@ body {
   background-image: url(images/bowie.png);
   background-position: center;
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed; }
 
 .ziggy_select {
@@ -58,10 +58,11 @@ body {
     color: #D0333E;
     transform: rotate(-19deg); }
 
-.album {
+.rebel {
+  color: #3a4b9c;
+  font-family: 'Permanent Marker', cursive;
   position: absolute;
-  top: 50%; }
-  .album h1 {
-    color: #3a4b9c; }
+  top: 50%;
+  margin-left: 5%; }
 
 /*# sourceMappingURL=main.css.map */
