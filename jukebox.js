@@ -35,7 +35,7 @@ $(document).ready(function(){
 		var x = parseInt(document.getElementById("audiofile").value);
 		song.current_song = x
 		song.new_track()
-		song.play_current_song()	
+		song.play_current_song()
 	})
 
 	
@@ -67,7 +67,5 @@ $(document).ready(function(){
 
 	}
 }
-
-
 
 });
