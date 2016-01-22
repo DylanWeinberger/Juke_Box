@@ -6,8 +6,8 @@
   left: 80%;
   width: 20%; }
   .buttons_from_mars button {
-    font-size: 100px;
-    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
     padding: 20px;
     margin-top: 50px;
     background-color: rgba(58, 75, 156, 0.6);
@@ -130,5 +130,3 @@
 @media screen and (max-width: 700px) {
   .album {
     display: none; } }
-
-/*# sourceMappingURL=main.css.map */
