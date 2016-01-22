@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	function Jukebox () {
 		this.current_song = 0
-		this.all_tracks = ["1.mp3","2.mp3"]
+		this.all_tracks = ["space.mp3","dance.mp3","rebel.mp3","changes.mp3","stardust.mp3"]
 		
 		this.playlist = [];
 		this.new_track = function () {
@@ -57,16 +57,16 @@ $(document).ready(function(){
 		song.pause_current_song()
 	}
 
-	document.getElementById("next_song").onclick=function () {
-		// console.log("click next")
+	// document.getElementById("next_song").onclick=function () {
+	// 	// console.log("click next")
 		
-		if (song.current_song == song.all_tracks.length){
-			song.current_song = 0
-		}
-		else (){ song.current_song += 1
-		}
-		song.new_track()
-	}
+	// 	if (song.current_song == song.all_tracks.length){
+	// 		song.current_song = 0
+	// 	}
+	// 	else (){ song.current_song += 1
+	// 	}
+	// 	song.new_track()
+	// }
 
 	$('#random_button').click(function () {
 		// console.log("click next")
