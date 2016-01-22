@@ -1,0 +1,23 @@
+.jbuttons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 80%;
+  width: 20%; }
+  .jbuttons button {
+    font-size: 20px;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgba(58, 75, 156, 0.6);
+    color: #BB2B56; }
+
+body {
+  background-image: url(images/bowie.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+/*# sourceMappingURL=main.css.map */

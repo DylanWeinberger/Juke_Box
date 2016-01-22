@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	function Jukebox () {
 		this.current_song = 0
@@ -232,3 +233,4 @@ $(document).ready(function(){
 
 
 // 	})
+
