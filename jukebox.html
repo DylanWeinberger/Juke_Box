@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,27 +7,36 @@
 	<!-- Voice recognition library above. -->
 	<script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src= "jukebox.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class= "container">
-		<div class="headline">Bowie Box</div>
-	<div class = "jbuttons">
+		<div class="headliner">
+			<h1>Bowie Box</h1>
+		</div>
+	<div class = "buttons_from_mars">
 		<button  id="play">Play</button>
 		<button  id="stop">Stop</button>
 		<button  id="pause">Pause</button>
-		<button  id="next_song">Add Song</button>
-		<button  id= "load">Load JukeBox</button>
+		<button  id="next_song">Next Song</button>
 		<br><br>
+	</div>
+	<div class = "ziggy_select">
+		<select id="audiofile"/>
+			<option value=""></option>
+			<option value="0">Space Oddity</option>
+			<option value="1">Let's Dance</option>
+			<option value="2">Rebel Rebel</option>
+			<option value="3">Changes</option>
+			<option value="4">Ziggy Stardust</option>
+		</select>
 	</div>	
-	<select id="audiofile"/>
-		<option value=""></option>
-		<option value="0">Space Oddity</option>
-		<option value="1">Let's Dance</option>
-		<option value="2">Rebel Rebel</option>
-		<option value="3">Changes</option>
-		<option value="4">Ziggy Stardust</option>
-	</select>
+	<div class="album">
+		<h1>Choose a song</h1>
+		<img class="thumbnail" src="css/images/album_holder.jpg" alt="">
+	</div>
 	<p id= "name"></p>
 	</div>
 </body>

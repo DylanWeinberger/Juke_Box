@@ -1,4 +1,4 @@
-.jbuttons {
+.buttons_from_mars {
 
 	position: relative;
 	display: flex;
@@ -14,9 +14,35 @@
 	margin-top: 50px;
 	background-color: $blueish;
 	// background-color: rgba(58, 75, 156, .6);
-	color: $redfont;
+	color: $redish;
+	transition: .5s;
+		}
 
-
+	#play:hover {
+		
+	background-color: $redish;
+	color: $blueish
 	}
+
+	#stop:hover {
+	background-color: shade($redish, 20%);
+	color: tint($bluepac, 20%)
+	}
+
+	#pause:hover {
+	background-color: shade($redish, 40%);
+	color: tint($bluepac, 40%)
+	}
+
+	#next_song:hover{
+	background-color: shade($redish, 60%);
+	color: tint($bluepac, 60%)
+	}
+
+	#load:hover {
+	background-color: shade($redish, 80%);
+	color: tint($bluepac, 80%)
+	}
+
 
 }
