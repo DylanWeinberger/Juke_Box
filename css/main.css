@@ -121,12 +121,5 @@
       font-size: 5vw;
       color: #F8D9BA;
       transform: rotate(-6deg); } }
-@media all and (min-width: 700px) {
-  .album {
-    position: absolute;
-    top: 50%; }
-    .album h1 {
-      color: #3a4b9c; } }
-@media screen and (max-width: 700px) {
-  .album {
-    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
