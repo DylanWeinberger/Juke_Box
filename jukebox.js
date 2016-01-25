@@ -23,7 +23,24 @@ $(document).ready(function(){
 		this.stop_current_song = function () {
 			$('audio')[0].currentTime = 0;
 		}
+		this.next_song = function () {
+			console.log(song.current_song)
 		
+		if (song.current_song == song.all_tracks.length -1){
+			song.current_song = 0
+			song.new_track()
+			song.play_current_song()
+			console.log(song.current_song)
+		}
+		else {
+		song.current_song += 1
+		song.new_track()
+		song.play_current_song()
+		console.log(song.current_song)
+
+	}
+			
+		}
 	}
 
 	 
@@ -54,18 +71,7 @@ $(document).ready(function(){
 	}
 
 	document.getElementById("next_song").onclick=function () {
-		console.log(song.current_song)
-		
-		if (song.current_song == song.all_tracks.length -1){
-			song.current_song = 0
-			song.play_current_song()
-		}
-		else {
-		song.current_song += 1
-		song.new_track()
-		song.play_current_song()
-
-	}
+		song.next_song()
 }
 
 
