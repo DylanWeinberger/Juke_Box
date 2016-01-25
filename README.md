@@ -10,7 +10,7 @@
 <h3>Bowie Front End Frame Work Theme</h3>
 <h5>Desktop Version</h5>
 <h6>Color Scheme</h6>
-<img src=("/css/images/bowie.png")/>
+<img src="css/images/bowie.png"/>
 <p>We used this image as the backdrop and made it the color scheme for the site. Three colors are defined from the begining. $blueish is the same as the blue lightning on Bowie's face, and $redish is taken from Bowie's chinstrap in the image. $bluepac is also used as a version of $blueish that has an opacity of 1.</p>
 <h6>Class headliner</h6>
 <p>The headliner class is used for the title of the site. It is placed absolutely in the top left corner of the page. We used the same red color from Bowies hair in the image for the title. We also used the font family "Bangers" found on google fonts. The title is also transformed and titled -19 degrees.</p>
